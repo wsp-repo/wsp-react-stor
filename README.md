@@ -12,8 +12,8 @@ import { stor } from 'wsp-react-stor';
 ```js
 const Component = () => {
   const [stateVal, setStateVal] = useState(
-		stor.getStor('storKey')
-	);
+    stor.getStor('storKey')
+  );
 
   stor.bindStor('storKey', setStateVal);
 
