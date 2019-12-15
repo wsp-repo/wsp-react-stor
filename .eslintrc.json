@@ -1,0 +1,148 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"node": true,
+		"es6": true
+	},
+	"extends": [
+		"airbnb/base"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"global-require": [
+			"off"
+		],
+		"prefer-template": [
+			"off"
+		],
+		"prefer-destructuring": [
+			"off"
+		],
+		"dot-notation": [
+			"error",
+			{
+				"allowKeywords": true,
+				"allowPattern": "^(.+)$"
+			}
+		],
+		"new-cap": [
+			"warn"
+		],
+		"quote-props": [
+			"error",
+			"consistent"
+		],
+		"import/order": [
+			"off"
+		],
+		"comma-dangle": [
+			"error",
+			"never"
+		],
+		"no-cond-assign": [
+			"off"
+		],
+		"func-names": [
+			"off"
+		],
+		"operator-linebreak": [
+			"off"
+		],
+		"import/no-named-as-default": [
+			"off"
+		],
+		"import/no-named-as-default-member": [
+			"off"
+		],
+		"import/newline-after-import": [
+			"off"
+		],
+		"import/no-dynamic-require": [
+			"off"
+		],
+		"import/no-extraneous-dependencies": [
+			"off"
+		],
+		"arrow-body-style": [
+			"off"
+		],
+		"max-len": [
+			"warn",
+			{
+				"code": 10000,
+				"ignoreUrls": true
+			}
+		],
+		"class-methods-use-this": [
+			"off"
+		],
+		"lines-between-class-members": [
+			"warn"
+		],
+		"no-unused-vars": [
+			"warn",
+			{
+				"vars": "all",
+				"args": "none"
+			}
+		],
+		"no-undef": [
+			"warn"
+		],
+		"no-use-before-define": [
+			"warn"
+		],
+		"no-unneeded-ternary": [
+			"off"
+		],
+		"no-underscore-dangle": [
+			"off"
+		],
+		"no-param-reassign": [
+			"off"
+		],
+		"no-unreachable": [
+			"warn"
+		],
+		"no-extra-semi": [
+			"off"
+		],
+		"no-continue": [
+			"off"
+		],
+		"no-plusplus": [
+			"off"
+		],
+		"no-console": [
+			"off"
+		],
+		"no-bitwise": [
+			"off"
+		],
+		"no-empty": [
+			"off"
+		],
+		"no-tabs": [
+			"off"
+		]
+	}
+}

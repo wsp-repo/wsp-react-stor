@@ -1,0 +1,19 @@
+{
+	"name": "wsp-react-stor",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:wsp-repo/wsp-react-stor.git"
+	},
+	"author": "WSP Team",
+	"license": "MIT License",
+	"homepage": "https://github.com/wsp-repo/wsp-react-stor",
+	"devDependencies": {
+		"eslint": "^6.1.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-plugin-import": "^2.18.2"
+	}
+}
