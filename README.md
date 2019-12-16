@@ -15,7 +15,17 @@ const Component = () => {
     stor.getStor('storKey')
   );
 
-  stor.bindStor('storKey', setStateVal);
+  useEffect(() => {
+    const bindStorKey = stor.bindStor(
+      'storKey', setStateVal
+    );
+
+    return () => {
+      stor.unbindStor(
+        'storKey', bindStorKey
+      );
+    }
+  }, []);
 
   return (
     <div onClick={stor.setStor('storKey', 'newValue')}>
